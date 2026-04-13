@@ -1,5 +1,11 @@
 payload:
   - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN-KEYWORD,datadoghq
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,datadoghq.com
+  - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,facebook.net
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
