@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN,browser-intake-us5-datadoghq.com
   - DOMAIN-KEYWORD,datadog
+  - DOMAIN-KEYWORD,sentry
   - DOMAIN-KEYWORD,sift
   # 客服 / 第三方 widget
   - DOMAIN-SUFFIX,intercom.io
@@ -26,3 +27,6 @@ payload:
   - IP-CIDR,160.79.104.0/21,no-resolve
   - IP-CIDR6,2607:6bc0::/32,no-resolve
   - IP-ASN,399358,no-resolve
+  # 通配兜底规则（包含 NTP 时区检测）
+  - GEOSITE,anthropic
+  - GEOSITE,category-ntp
