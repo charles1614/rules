@@ -1,18 +1,19 @@
 # NAME: Anthropic
 # UPDATED: 2026-04-18 18:03:00
 # DOMAIN: 6
-# DOMAIN-KEYWORD: 2
+# DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 11
 # IP-CIDR: 1
 # IP-CIDR6: 1
 # IP-ASN: 1
-# TOTAL: 22
+# TOTAL: 23
 # 核心域名
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 # CDN 和静态资源
 DOMAIN,servd-anthropic-website.b-cdn.net
