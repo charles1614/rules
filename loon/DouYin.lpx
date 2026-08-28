@@ -1,0 +1,33 @@
+#!name=DouYin Direct DNS
+#!desc=Routes DouYin directly and resolves its domains with Tencent encrypted DNS.
+
+[Rule]
+DOMAIN,lf3-static.bytednsdoc.com,DIRECT
+DOMAIN,v5-dy-o-abtest.zjcdn.com,DIRECT
+DOMAIN-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,douyincdn.com,DIRECT
+DOMAIN-SUFFIX,douyinpic.com,DIRECT
+DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+DOMAIN-SUFFIX,douyinvod.com,DIRECT
+DOMAIN-SUFFIX,idouyinvod.com,DIRECT
+DOMAIN-SUFFIX,ixigua.com,DIRECT
+DOMAIN-SUFFIX,ixiguavideo.com,DIRECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+
+[Host]
+# Tencent DoH is used only for DouYin and ByteDance domains in this plugin.
+*.amemv.com=server:https://doh.pub/dns-query
+*.bytednsdoc.com=server:https://doh.pub/dns-query
+*.douyincdn.com=server:https://doh.pub/dns-query
+*.douyinpic.com=server:https://doh.pub/dns-query
+*.douyinstatic.com=server:https://doh.pub/dns-query
+*.douyinvod.com=server:https://doh.pub/dns-query
+*.idouyinvod.com=server:https://doh.pub/dns-query
+*.ixigua.com=server:https://doh.pub/dns-query
+*.ixiguavideo.com=server:https://doh.pub/dns-query
+*.pstatp.com=server:https://doh.pub/dns-query
+*.snssdk.com=server:https://doh.pub/dns-query
+*.toutiao.com=server:https://doh.pub/dns-query
+*.zjcdn.com=server:https://doh.pub/dns-query
