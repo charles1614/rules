@@ -1,5 +1,5 @@
-#!name=DouYin Direct Routing
-#!desc=Routes DouYin directly and uses the local system DNS for optimal CDN delivery.
+#!name=DouYin Direct DNS
+#!desc=Routes DouYin directly and resolves its domains with Tencent encrypted DNS.
 
 [Rule]
 DOMAIN,lf3-static.bytednsdoc.com,DIRECT
@@ -17,17 +17,17 @@ DOMAIN-SUFFIX,snssdk.com,DIRECT
 DOMAIN-SUFFIX,toutiao.com,DIRECT
 
 [Host]
-# DouYin CDN selection works best with the ISP/router resolver on this network.
-*.amemv.com=server:system
-*.bytednsdoc.com=server:system
-*.douyincdn.com=server:system
-*.douyinpic.com=server:system
-*.douyinstatic.com=server:system
-*.douyinvod.com=server:system
-*.idouyinvod.com=server:system
-*.ixigua.com=server:system
-*.ixiguavideo.com=server:system
-*.pstatp.com=server:system
-*.snssdk.com=server:system
-*.toutiao.com=server:system
-*.zjcdn.com=server:system
+# Tencent encrypted DNS is used only for DouYin and ByteDance domains.
+*.amemv.com=server:https://doh.pub/dns-query
+*.bytednsdoc.com=server:https://doh.pub/dns-query
+*.douyincdn.com=server:https://doh.pub/dns-query
+*.douyinpic.com=server:https://doh.pub/dns-query
+*.douyinstatic.com=server:https://doh.pub/dns-query
+*.douyinvod.com=server:https://doh.pub/dns-query
+*.idouyinvod.com=server:https://doh.pub/dns-query
+*.ixigua.com=server:https://doh.pub/dns-query
+*.ixiguavideo.com=server:https://doh.pub/dns-query
+*.pstatp.com=server:https://doh.pub/dns-query
+*.snssdk.com=server:https://doh.pub/dns-query
+*.toutiao.com=server:https://doh.pub/dns-query
+*.zjcdn.com=server:https://doh.pub/dns-query
