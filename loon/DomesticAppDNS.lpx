@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,amemv.com,DIRECT
 DOMAIN-SUFFIX,bytecdn.com,DIRECT
 DOMAIN-SUFFIX,byteeffecttos.com,DIRECT
 DOMAIN-SUFFIX,bytegecko.com,DIRECT
+DOMAIN-SUFFIX,bytehwm.com,DIRECT
 DOMAIN-SUFFIX,byteimg.com,DIRECT
 DOMAIN-SUFFIX,bytedance.com,DIRECT
 DOMAIN-SUFFIX,bytemaimg.com,DIRECT
@@ -109,9 +110,17 @@ hub.kelee.one=server:https://doh.pub/dns-query
 # Other domestic service domains observed in the log
 *.baidu.com=server:https://doh.pub/dns-query
 *.tencent.com=server:https://doh.pub/dns-query
+m.baike.com=server:https://doh.pub/dns-query
 *.kuaishouzt.com=server:https://doh.pub/dns-query
 *.ksyun.com=server:https://doh.pub/dns-query
 *.livehwc3.cn=server:https://doh.pub/dns-query
+*.taou.com=server:https://doh.pub/dns-query
+*.maimai.cn=server:https://doh.pub/dns-query
+*.sobot.com=server:https://doh.pub/dns-query
+*.gepush.com=server:https://doh.pub/dns-query
+*.shuzilm.cn=server:https://doh.pub/dns-query
+*.trtcube-license.cn=server:https://doh.pub/dns-query
+*.tencent-cloud.net=server:https://doh.pub/dns-query
 
 # DouYin and ByteDance
 *.amemv.com=server:https://dns.alidns.com/dns-query
@@ -130,6 +139,7 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.bytecdn.com=server:https://dns.alidns.com/dns-query
 *.byteeffecttos.com=server:https://dns.alidns.com/dns-query
 *.bytegecko.com=server:https://dns.alidns.com/dns-query
+*.bytehwm.com=server:https://dns.alidns.com/dns-query
 *.byteimg.com=server:https://dns.alidns.com/dns-query
 *.bytedance.com=server:https://dns.alidns.com/dns-query
 *.bytemaimg.com=server:https://dns.alidns.com/dns-query
