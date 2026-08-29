@@ -111,6 +111,7 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.baidu.com=server:https://doh.pub/dns-query
 *.tencent.com=server:https://doh.pub/dns-query
 m.baike.com=server:https://doh.pub/dns-query
+*.300hu.com=server:https://doh.pub/dns-query
 *.kuaishouzt.com=server:https://doh.pub/dns-query
 *.ksyun.com=server:https://doh.pub/dns-query
 *.livehwc3.cn=server:https://doh.pub/dns-query
