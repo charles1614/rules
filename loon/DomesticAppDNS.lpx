@@ -6,16 +6,32 @@
 DOMAIN,lf3-static.bytednsdoc.com,DIRECT
 DOMAIN,v5-dy-o-abtest.zjcdn.com,DIRECT
 DOMAIN-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,bytecdn.com,DIRECT
+DOMAIN-SUFFIX,byteeffecttos.com,DIRECT
+DOMAIN-SUFFIX,bytegecko.com,DIRECT
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+DOMAIN-SUFFIX,bytedance.com,DIRECT
+DOMAIN-SUFFIX,bytemaimg.com,DIRECT
+DOMAIN-SUFFIX,bytemastatic.com,DIRECT
+DOMAIN-SUFFIX,bsgslb.cn,DIRECT
 DOMAIN-SUFFIX,douyincdn.com,DIRECT
 DOMAIN-SUFFIX,douyinpic.com,DIRECT
 DOMAIN-SUFFIX,douyinstatic.com,DIRECT
 DOMAIN-SUFFIX,douyinvod.com,DIRECT
+DOMAIN-SUFFIX,ecombdapi.com,DIRECT
+DOMAIN-SUFFIX,ecombdimg.com,DIRECT
+DOMAIN-SUFFIX,huoshanimg.com,DIRECT
 DOMAIN-SUFFIX,idouyinvod.com,DIRECT
 DOMAIN-SUFFIX,ixigua.com,DIRECT
 DOMAIN-SUFFIX,ixiguavideo.com,DIRECT
+DOMAIN-SUFFIX,ndcpp.com,DIRECT
+DOMAIN-SUFFIX,ndcppx.com,DIRECT
 DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,qishui.com,DIRECT
+DOMAIN-SUFFIX,rtcxyz.com,DIRECT
 DOMAIN-SUFFIX,snssdk.com,DIRECT
 DOMAIN-SUFFIX,toutiao.com,DIRECT
+DOMAIN-SUFFIX,zijieapi.com,DIRECT
 
 [Host]
 # XiaoHongShu
@@ -46,6 +62,7 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.weixin.qq.com=server:https://doh.pub/dns-query
 *.wxs.qq.com=server:https://doh.pub/dns-query
 *.qpic.cn=server:https://doh.pub/dns-query
+*.qlogo.cn=server:https://doh.pub/dns-query
 *.gtimg.com=server:https://doh.pub/dns-query
 
 # Weibo
@@ -53,6 +70,7 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.weibo.cn=server:https://doh.pub/dns-query
 *.sinaimg.cn=server:https://doh.pub/dns-query
 *.sinacloud.net=server:https://doh.pub/dns-query
+*.weibocdn.com=server:https://doh.pub/dns-query
 
 # Amap and AutoNavi
 *.amap.com=server:https://doh.pub/dns-query
@@ -66,6 +84,7 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.alibabachengdun.net=server:https://doh.pub/dns-query
 *.tanx.com=server:https://doh.pub/dns-query
 *.ele.me=server:https://doh.pub/dns-query
+*.taobao.com=server:https://doh.pub/dns-query
 
 # Meituan and Dianping
 *.meituan.com=server:https://doh.pub/dns-query
@@ -88,6 +107,8 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.dbankcloud.cn=server:https://doh.pub/dns-query
 
 # Other domestic service domains observed in the log
+*.baidu.com=server:https://doh.pub/dns-query
+*.tencent.com=server:https://doh.pub/dns-query
 *.kuaishouzt.com=server:https://doh.pub/dns-query
 *.ksyun.com=server:https://doh.pub/dns-query
 *.livehwc3.cn=server:https://doh.pub/dns-query
@@ -106,3 +127,19 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.snssdk.com=server:https://doh.pub/dns-query
 *.toutiao.com=server:https://doh.pub/dns-query
 *.zjcdn.com=server:https://doh.pub/dns-query
+*.bytecdn.com=server:https://doh.pub/dns-query
+*.byteeffecttos.com=server:https://doh.pub/dns-query
+*.bytegecko.com=server:https://doh.pub/dns-query
+*.byteimg.com=server:https://doh.pub/dns-query
+*.bytedance.com=server:https://doh.pub/dns-query
+*.bytemaimg.com=server:https://doh.pub/dns-query
+*.bytemastatic.com=server:https://doh.pub/dns-query
+*.bsgslb.cn=server:https://doh.pub/dns-query
+*.ecombdapi.com=server:https://doh.pub/dns-query
+*.ecombdimg.com=server:https://doh.pub/dns-query
+*.huoshanimg.com=server:https://doh.pub/dns-query
+*.ndcpp.com=server:https://doh.pub/dns-query
+*.ndcppx.com=server:https://doh.pub/dns-query
+*.qishui.com=server:https://doh.pub/dns-query
+*.rtcxyz.com=server:https://doh.pub/dns-query
+*.zijieapi.com=server:https://doh.pub/dns-query
