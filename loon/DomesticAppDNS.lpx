@@ -1,5 +1,5 @@
 #!name=Domestic App DNS
-#!desc=Routes DouYin directly and uses Tencent encrypted DNS for selected domestic apps.
+#!desc=Routes DouYin directly and uses domestic encrypted DNS for selected apps.
 
 [Rule]
 # DouYin and ByteDance
@@ -35,42 +35,42 @@ DOMAIN-SUFFIX,zijieapi.com,DIRECT
 
 [Host]
 # XiaoHongShu
-*.xiaohongshu.com=server:https://doh.pub/dns-query
-*.xhscdn.com=server:https://doh.pub/dns-query
-*.xhscdn.net=server:https://doh.pub/dns-query
-*.rednotecdn.com=server:https://doh.pub/dns-query
-*.rnote.com=server:https://doh.pub/dns-query
-sa.ksrd.xyz=server:https://doh.pub/dns-query
-*.yunjnet.com=server:https://doh.pub/dns-query
+*.xiaohongshu.com=server:https://dns.alidns.com/dns-query
+*.xhscdn.com=server:https://dns.alidns.com/dns-query
+*.xhscdn.net=server:https://dns.alidns.com/dns-query
+*.rednotecdn.com=server:https://dns.alidns.com/dns-query
+*.rnote.com=server:https://dns.alidns.com/dns-query
+sa.ksrd.xyz=server:https://dns.alidns.com/dns-query
+*.yunjnet.com=server:https://dns.alidns.com/dns-query
 
 # LiteNext
 *.litenext.digital=server:https://doh.pub/dns-query
 
 # Apple and iCloud
-*.apple.com=server:https://doh.pub/dns-query
-*.icloud.com=server:https://doh.pub/dns-query
-*.mzstatic.com=server:https://doh.pub/dns-query
-*.cdn-apple.com=server:https://doh.pub/dns-query
-*.icloud-content.com=server:https://doh.pub/dns-query
+*.apple.com=server:https://dns.alidns.com/dns-query
+*.icloud.com=server:https://dns.alidns.com/dns-query
+*.mzstatic.com=server:https://dns.alidns.com/dns-query
+*.cdn-apple.com=server:https://dns.alidns.com/dns-query
+*.icloud-content.com=server:https://dns.alidns.com/dns-query
 
 # Kelee plugin resources
 kelee.one=server:https://doh.pub/dns-query
 hub.kelee.one=server:https://doh.pub/dns-query
 
 # WeChat and QQ
-*.qq.com=server:https://doh.pub/dns-query
-*.weixin.qq.com=server:https://doh.pub/dns-query
-*.wxs.qq.com=server:https://doh.pub/dns-query
-*.qpic.cn=server:https://doh.pub/dns-query
-*.qlogo.cn=server:https://doh.pub/dns-query
-*.gtimg.com=server:https://doh.pub/dns-query
+*.qq.com=server:https://dns.alidns.com/dns-query
+*.weixin.qq.com=server:https://dns.alidns.com/dns-query
+*.wxs.qq.com=server:https://dns.alidns.com/dns-query
+*.qpic.cn=server:https://dns.alidns.com/dns-query
+*.qlogo.cn=server:https://dns.alidns.com/dns-query
+*.gtimg.com=server:https://dns.alidns.com/dns-query
 
 # Weibo
-*.weibo.com=server:https://doh.pub/dns-query
-*.weibo.cn=server:https://doh.pub/dns-query
-*.sinaimg.cn=server:https://doh.pub/dns-query
-*.sinacloud.net=server:https://doh.pub/dns-query
-*.weibocdn.com=server:https://doh.pub/dns-query
+*.weibo.com=server:https://dns.alidns.com/dns-query
+*.weibo.cn=server:https://dns.alidns.com/dns-query
+*.sinaimg.cn=server:https://dns.alidns.com/dns-query
+*.sinacloud.net=server:https://dns.alidns.com/dns-query
+*.weibocdn.com=server:https://dns.alidns.com/dns-query
 
 # Amap and AutoNavi
 *.amap.com=server:https://doh.pub/dns-query
@@ -114,32 +114,32 @@ hub.kelee.one=server:https://doh.pub/dns-query
 *.livehwc3.cn=server:https://doh.pub/dns-query
 
 # DouYin and ByteDance
-*.amemv.com=server:https://doh.pub/dns-query
-*.bytednsdoc.com=server:https://doh.pub/dns-query
-*.douyincdn.com=server:https://doh.pub/dns-query
-*.douyinpic.com=server:https://doh.pub/dns-query
-*.douyinstatic.com=server:https://doh.pub/dns-query
-*.douyinvod.com=server:https://doh.pub/dns-query
-*.idouyinvod.com=server:https://doh.pub/dns-query
-*.ixigua.com=server:https://doh.pub/dns-query
-*.ixiguavideo.com=server:https://doh.pub/dns-query
-*.pstatp.com=server:https://doh.pub/dns-query
-*.snssdk.com=server:https://doh.pub/dns-query
-*.toutiao.com=server:https://doh.pub/dns-query
-*.zjcdn.com=server:https://doh.pub/dns-query
-*.bytecdn.com=server:https://doh.pub/dns-query
-*.byteeffecttos.com=server:https://doh.pub/dns-query
-*.bytegecko.com=server:https://doh.pub/dns-query
-*.byteimg.com=server:https://doh.pub/dns-query
-*.bytedance.com=server:https://doh.pub/dns-query
-*.bytemaimg.com=server:https://doh.pub/dns-query
-*.bytemastatic.com=server:https://doh.pub/dns-query
-*.bsgslb.cn=server:https://doh.pub/dns-query
-*.ecombdapi.com=server:https://doh.pub/dns-query
-*.ecombdimg.com=server:https://doh.pub/dns-query
-*.huoshanimg.com=server:https://doh.pub/dns-query
-*.ndcpp.com=server:https://doh.pub/dns-query
-*.ndcppx.com=server:https://doh.pub/dns-query
-*.qishui.com=server:https://doh.pub/dns-query
-*.rtcxyz.com=server:https://doh.pub/dns-query
-*.zijieapi.com=server:https://doh.pub/dns-query
+*.amemv.com=server:https://dns.alidns.com/dns-query
+*.bytednsdoc.com=server:https://dns.alidns.com/dns-query
+*.douyincdn.com=server:https://dns.alidns.com/dns-query
+*.douyinpic.com=server:https://dns.alidns.com/dns-query
+*.douyinstatic.com=server:https://dns.alidns.com/dns-query
+*.douyinvod.com=server:https://dns.alidns.com/dns-query
+*.idouyinvod.com=server:https://dns.alidns.com/dns-query
+*.ixigua.com=server:https://dns.alidns.com/dns-query
+*.ixiguavideo.com=server:https://dns.alidns.com/dns-query
+*.pstatp.com=server:https://dns.alidns.com/dns-query
+*.snssdk.com=server:https://dns.alidns.com/dns-query
+*.toutiao.com=server:https://dns.alidns.com/dns-query
+*.zjcdn.com=server:https://dns.alidns.com/dns-query
+*.bytecdn.com=server:https://dns.alidns.com/dns-query
+*.byteeffecttos.com=server:https://dns.alidns.com/dns-query
+*.bytegecko.com=server:https://dns.alidns.com/dns-query
+*.byteimg.com=server:https://dns.alidns.com/dns-query
+*.bytedance.com=server:https://dns.alidns.com/dns-query
+*.bytemaimg.com=server:https://dns.alidns.com/dns-query
+*.bytemastatic.com=server:https://dns.alidns.com/dns-query
+*.bsgslb.cn=server:https://dns.alidns.com/dns-query
+*.ecombdapi.com=server:https://dns.alidns.com/dns-query
+*.ecombdimg.com=server:https://dns.alidns.com/dns-query
+*.huoshanimg.com=server:https://dns.alidns.com/dns-query
+*.ndcpp.com=server:https://dns.alidns.com/dns-query
+*.ndcppx.com=server:https://dns.alidns.com/dns-query
+*.qishui.com=server:https://dns.alidns.com/dns-query
+*.rtcxyz.com=server:https://dns.alidns.com/dns-query
+*.zijieapi.com=server:https://dns.alidns.com/dns-query
