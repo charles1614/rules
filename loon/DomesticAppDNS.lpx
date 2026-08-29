@@ -109,6 +109,8 @@ hub.kelee.one=server:system
 
 # Other domestic service domains observed in the log
 *.baidu.com=server:system
+*.bdstatic.com=server:system
+*.bcebos.com=server:system
 *.tencent.com=server:system
 m.baike.com=server:system
 *.300hu.com=server:system
@@ -122,6 +124,26 @@ m.baike.com=server:system
 *.shuzilm.cn=server:system
 *.trtcube-license.cn=server:system
 *.tencent-cloud.net=server:system
+
+# Xiaomi and smart-home services
+*.xiaomi.com=server:system
+*.mi.com=server:system
+*.mi-img.com=server:system
+*.mijia.tech=server:system
+*.xiaomi.net=server:system
+
+# Alibaba delivery and payment assets
+*.cainiao.com=server:system
+*.mmstat.com=server:system
+*.alipayobjects.com=server:system
+
+# China Merchants Bank
+*.cmbchina.com=server:system
+*.cmbimg.com=server:system
+
+# Zhihu
+*.zhihu.com=server:system
+*.zhimg.com=server:system
 
 # DouYin and ByteDance
 *.amemv.com=server:system
