@@ -1,0 +1,57 @@
+#!name=Domestic App DNS
+#!desc=Routes DouYin directly and uses Tencent encrypted DNS for selected domestic apps.
+
+[Rule]
+# DouYin and ByteDance
+DOMAIN,lf3-static.bytednsdoc.com,DIRECT
+DOMAIN,v5-dy-o-abtest.zjcdn.com,DIRECT
+DOMAIN-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,douyincdn.com,DIRECT
+DOMAIN-SUFFIX,douyinpic.com,DIRECT
+DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+DOMAIN-SUFFIX,douyinvod.com,DIRECT
+DOMAIN-SUFFIX,idouyinvod.com,DIRECT
+DOMAIN-SUFFIX,ixigua.com,DIRECT
+DOMAIN-SUFFIX,ixiguavideo.com,DIRECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+
+[Host]
+# XiaoHongShu
+*.xiaohongshu.com=server:https://doh.pub/dns-query
+*.xhscdn.com=server:https://doh.pub/dns-query
+*.xhscdn.net=server:https://doh.pub/dns-query
+*.rednotecdn.com=server:https://doh.pub/dns-query
+*.rnote.com=server:https://doh.pub/dns-query
+sa.ksrd.xyz=server:https://doh.pub/dns-query
+*.yunjnet.com=server:https://doh.pub/dns-query
+
+# LiteNext
+*.litenext.digital=server:https://doh.pub/dns-query
+
+# Apple and iCloud
+*.apple.com=server:https://doh.pub/dns-query
+*.icloud.com=server:https://doh.pub/dns-query
+
+# WeChat and QQ
+*.qq.com=server:https://doh.pub/dns-query
+*.weixin.qq.com=server:https://doh.pub/dns-query
+*.wxs.qq.com=server:https://doh.pub/dns-query
+*.qpic.cn=server:https://doh.pub/dns-query
+*.gtimg.com=server:https://doh.pub/dns-query
+
+# DouYin and ByteDance
+*.amemv.com=server:https://doh.pub/dns-query
+*.bytednsdoc.com=server:https://doh.pub/dns-query
+*.douyincdn.com=server:https://doh.pub/dns-query
+*.douyinpic.com=server:https://doh.pub/dns-query
+*.douyinstatic.com=server:https://doh.pub/dns-query
+*.douyinvod.com=server:https://doh.pub/dns-query
+*.idouyinvod.com=server:https://doh.pub/dns-query
+*.ixigua.com=server:https://doh.pub/dns-query
+*.ixiguavideo.com=server:https://doh.pub/dns-query
+*.pstatp.com=server:https://doh.pub/dns-query
+*.snssdk.com=server:https://doh.pub/dns-query
+*.toutiao.com=server:https://doh.pub/dns-query
+*.zjcdn.com=server:https://doh.pub/dns-query
