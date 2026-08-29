@@ -33,6 +33,13 @@ sa.ksrd.xyz=server:https://doh.pub/dns-query
 # Apple and iCloud
 *.apple.com=server:https://doh.pub/dns-query
 *.icloud.com=server:https://doh.pub/dns-query
+*.mzstatic.com=server:https://doh.pub/dns-query
+*.cdn-apple.com=server:https://doh.pub/dns-query
+*.icloud-content.com=server:https://doh.pub/dns-query
+
+# Kelee plugin resources
+kelee.one=server:https://doh.pub/dns-query
+hub.kelee.one=server:https://doh.pub/dns-query
 
 # WeChat and QQ
 *.qq.com=server:https://doh.pub/dns-query
@@ -40,6 +47,50 @@ sa.ksrd.xyz=server:https://doh.pub/dns-query
 *.wxs.qq.com=server:https://doh.pub/dns-query
 *.qpic.cn=server:https://doh.pub/dns-query
 *.gtimg.com=server:https://doh.pub/dns-query
+
+# Weibo
+*.weibo.com=server:https://doh.pub/dns-query
+*.weibo.cn=server:https://doh.pub/dns-query
+*.sinaimg.cn=server:https://doh.pub/dns-query
+*.sinacloud.net=server:https://doh.pub/dns-query
+
+# Amap and AutoNavi
+*.amap.com=server:https://doh.pub/dns-query
+*.autonavi.com=server:https://doh.pub/dns-query
+
+# Alibaba and Alipay
+*.alipay.com=server:https://doh.pub/dns-query
+*.alicdn.com=server:https://doh.pub/dns-query
+*.aliyuncs.com=server:https://doh.pub/dns-query
+*.alibabachengdun.com=server:https://doh.pub/dns-query
+*.alibabachengdun.net=server:https://doh.pub/dns-query
+*.tanx.com=server:https://doh.pub/dns-query
+*.ele.me=server:https://doh.pub/dns-query
+
+# Meituan and Dianping
+*.meituan.com=server:https://doh.pub/dns-query
+*.meituan.net=server:https://doh.pub/dns-query
+*.dianping.com=server:https://doh.pub/dns-query
+
+# Pinduoduo
+*.pinduoduo.com=server:https://doh.pub/dns-query
+*.pddpic.com=server:https://doh.pub/dns-query
+
+# JD
+*.jd.com=server:https://doh.pub/dns-query
+*.360buyimg.com=server:https://doh.pub/dns-query
+
+# China Mobile authentication
+*.cmpassport.com=server:https://doh.pub/dns-query
+
+# Huawei services
+*.hicloud.com=server:https://doh.pub/dns-query
+*.dbankcloud.cn=server:https://doh.pub/dns-query
+
+# Other domestic service domains observed in the log
+*.kuaishouzt.com=server:https://doh.pub/dns-query
+*.ksyun.com=server:https://doh.pub/dns-query
+*.livehwc3.cn=server:https://doh.pub/dns-query
 
 # DouYin and ByteDance
 *.amemv.com=server:https://doh.pub/dns-query
