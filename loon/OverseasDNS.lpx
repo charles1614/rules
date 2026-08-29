@@ -1,0 +1,66 @@
+#!name=Overseas DNS
+#!desc=Uses Cloudflare encrypted DNS for essential overseas services.
+
+[Host]
+# Anthropic and OpenAI
+*.anthropic.com=server:https://1.1.1.1/dns-query
+*.claude.ai=server:https://1.1.1.1/dns-query
+*.claude.com=server:https://1.1.1.1/dns-query
+*.claudeusercontent.com=server:https://1.1.1.1/dns-query
+*.openai.com=server:https://1.1.1.1/dns-query
+*.chatgpt.com=server:https://1.1.1.1/dns-query
+*.oaistatic.com=server:https://1.1.1.1/dns-query
+*.oaiusercontent.com=server:https://1.1.1.1/dns-query
+
+# Google and YouTube
+*.google.com=server:https://1.1.1.1/dns-query
+*.googleapis.com=server:https://1.1.1.1/dns-query
+*.googleusercontent.com=server:https://1.1.1.1/dns-query
+*.gstatic.com=server:https://1.1.1.1/dns-query
+*.ggpht.com=server:https://1.1.1.1/dns-query
+*.gvt1.com=server:https://1.1.1.1/dns-query
+*.gvt2.com=server:https://1.1.1.1/dns-query
+*.youtube.com=server:https://1.1.1.1/dns-query
+*.youtu.be=server:https://1.1.1.1/dns-query
+*.ytimg.com=server:https://1.1.1.1/dns-query
+
+# GitHub and Cloudflare
+*.github.com=server:https://1.1.1.1/dns-query
+*.githubusercontent.com=server:https://1.1.1.1/dns-query
+*.githubassets.com=server:https://1.1.1.1/dns-query
+*.githubapp.com=server:https://1.1.1.1/dns-query
+*.github.io=server:https://1.1.1.1/dns-query
+*.cloudflare.com=server:https://1.1.1.1/dns-query
+*.cloudflare-dns.com=server:https://1.1.1.1/dns-query
+*.cloudflareclient.com=server:https://1.1.1.1/dns-query
+*.workers.dev=server:https://1.1.1.1/dns-query
+
+# Telegram and X
+*.telegram.org=server:https://1.1.1.1/dns-query
+*.telegram.me=server:https://1.1.1.1/dns-query
+*.t.me=server:https://1.1.1.1/dns-query
+*.telegra.ph=server:https://1.1.1.1/dns-query
+*.telesco.pe=server:https://1.1.1.1/dns-query
+*.twitter.com=server:https://1.1.1.1/dns-query
+*.x.com=server:https://1.1.1.1/dns-query
+*.twimg.com=server:https://1.1.1.1/dns-query
+*.t.co=server:https://1.1.1.1/dns-query
+
+# Media and developer services in the current policy set
+*.discord.com=server:https://1.1.1.1/dns-query
+*.discordapp.com=server:https://1.1.1.1/dns-query
+*.discordapp.net=server:https://1.1.1.1/dns-query
+*.spotify.com=server:https://1.1.1.1/dns-query
+*.scdn.co=server:https://1.1.1.1/dns-query
+*.netflix.com=server:https://1.1.1.1/dns-query
+*.nflxvideo.net=server:https://1.1.1.1/dns-query
+*.nflximg.net=server:https://1.1.1.1/dns-query
+*.steampowered.com=server:https://1.1.1.1/dns-query
+*.steamcommunity.com=server:https://1.1.1.1/dns-query
+*.steamstatic.com=server:https://1.1.1.1/dns-query
+*.steamcontent.com=server:https://1.1.1.1/dns-query
+*.microsoft.com=server:https://1.1.1.1/dns-query
+*.live.com=server:https://1.1.1.1/dns-query
+*.bing.com=server:https://1.1.1.1/dns-query
+*.linkedin.com=server:https://1.1.1.1/dns-query
+*.licdn.com=server:https://1.1.1.1/dns-query

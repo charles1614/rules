@@ -1,0 +1,35 @@
+#!name=Domestic App Routing
+#!desc=Routes DouYin and ByteDance traffic directly. DNS follows the profile's global encrypted resolver.
+
+[Rule]
+# DouYin and ByteDance
+DOMAIN,lf3-static.bytednsdoc.com,DIRECT
+DOMAIN,v5-dy-o-abtest.zjcdn.com,DIRECT
+DOMAIN-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,bytecdn.com,DIRECT
+DOMAIN-SUFFIX,byteeffecttos.com,DIRECT
+DOMAIN-SUFFIX,bytegecko.com,DIRECT
+DOMAIN-SUFFIX,bytehwm.com,DIRECT
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+DOMAIN-SUFFIX,bytedance.com,DIRECT
+DOMAIN-SUFFIX,bytemaimg.com,DIRECT
+DOMAIN-SUFFIX,bytemastatic.com,DIRECT
+DOMAIN-SUFFIX,bsgslb.cn,DIRECT
+DOMAIN-SUFFIX,douyincdn.com,DIRECT
+DOMAIN-SUFFIX,douyinpic.com,DIRECT
+DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+DOMAIN-SUFFIX,douyinvod.com,DIRECT
+DOMAIN-SUFFIX,ecombdapi.com,DIRECT
+DOMAIN-SUFFIX,ecombdimg.com,DIRECT
+DOMAIN-SUFFIX,huoshanimg.com,DIRECT
+DOMAIN-SUFFIX,idouyinvod.com,DIRECT
+DOMAIN-SUFFIX,ixigua.com,DIRECT
+DOMAIN-SUFFIX,ixiguavideo.com,DIRECT
+DOMAIN-SUFFIX,ndcpp.com,DIRECT
+DOMAIN-SUFFIX,ndcppx.com,DIRECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,qishui.com,DIRECT
+DOMAIN-SUFFIX,rtcxyz.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+DOMAIN-SUFFIX,zijieapi.com,DIRECT
