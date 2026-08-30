@@ -36,12 +36,12 @@ DOMAIN-SUFFIX,zijieapi.com,DIRECT
 
 [Host]
 # XiaoHongShu
-*.xiaohongshu.com=server:system
-*.xhscdn.com=server:system
-*.xhscdn.net=server:system
-*.rednotecdn.com=server:system
-*.rnote.com=server:system
-sa.ksrd.xyz=server:system
+*.xiaohongshu.com=server:https://dns.alidns.com/dns-query
+*.xhscdn.com=server:https://dns.alidns.com/dns-query
+*.xhscdn.net=server:https://dns.alidns.com/dns-query
+*.rednotecdn.com=server:https://dns.alidns.com/dns-query
+*.rnote.com=server:https://dns.alidns.com/dns-query
+sa.ksrd.xyz=server:https://dns.alidns.com/dns-query
 *.yunjnet.com=server:system
 
 # LiteNext
@@ -179,33 +179,33 @@ m.baike.com=server:system
 *.cn=server:system
 
 # DouYin and ByteDance
-*.amemv.com=server:system
-*.bytednsdoc.com=server:system
-*.douyincdn.com=server:system
-*.douyinpic.com=server:system
-*.douyinstatic.com=server:system
-*.douyinvod.com=server:system
-*.idouyinvod.com=server:system
-*.ixigua.com=server:system
-*.ixiguavideo.com=server:system
-*.pstatp.com=server:system
-*.snssdk.com=server:system
-*.toutiao.com=server:system
-*.zjcdn.com=server:system
-*.bytecdn.com=server:system
-*.byteeffecttos.com=server:system
-*.bytegecko.com=server:system
-*.bytehwm.com=server:system
-*.byteimg.com=server:system
-*.bytedance.com=server:system
-*.bytemaimg.com=server:system
-*.bytemastatic.com=server:system
-*.bsgslb.cn=server:system
-*.ecombdapi.com=server:system
-*.ecombdimg.com=server:system
-*.huoshanimg.com=server:system
-*.ndcpp.com=server:system
-*.ndcppx.com=server:system
-*.qishui.com=server:system
-*.rtcxyz.com=server:system
-*.zijieapi.com=server:system
+*.amemv.com=server:https://dns.alidns.com/dns-query
+*.bytednsdoc.com=server:https://dns.alidns.com/dns-query
+*.douyincdn.com=server:https://dns.alidns.com/dns-query
+*.douyinpic.com=server:https://dns.alidns.com/dns-query
+*.douyinstatic.com=server:https://dns.alidns.com/dns-query
+*.douyinvod.com=server:https://dns.alidns.com/dns-query
+*.idouyinvod.com=server:https://dns.alidns.com/dns-query
+*.ixigua.com=server:https://dns.alidns.com/dns-query
+*.ixiguavideo.com=server:https://dns.alidns.com/dns-query
+*.pstatp.com=server:https://dns.alidns.com/dns-query
+*.snssdk.com=server:https://dns.alidns.com/dns-query
+*.toutiao.com=server:https://dns.alidns.com/dns-query
+*.zjcdn.com=server:https://dns.alidns.com/dns-query
+*.bytecdn.com=server:https://dns.alidns.com/dns-query
+*.byteeffecttos.com=server:https://dns.alidns.com/dns-query
+*.bytegecko.com=server:https://dns.alidns.com/dns-query
+*.bytehwm.com=server:https://dns.alidns.com/dns-query
+*.byteimg.com=server:https://dns.alidns.com/dns-query
+*.bytedance.com=server:https://dns.alidns.com/dns-query
+*.bytemaimg.com=server:https://dns.alidns.com/dns-query
+*.bytemastatic.com=server:https://dns.alidns.com/dns-query
+*.bsgslb.cn=server:https://dns.alidns.com/dns-query
+*.ecombdapi.com=server:https://dns.alidns.com/dns-query
+*.ecombdimg.com=server:https://dns.alidns.com/dns-query
+*.huoshanimg.com=server:https://dns.alidns.com/dns-query
+*.ndcpp.com=server:https://dns.alidns.com/dns-query
+*.ndcppx.com=server:https://dns.alidns.com/dns-query
+*.qishui.com=server:https://dns.alidns.com/dns-query
+*.rtcxyz.com=server:https://dns.alidns.com/dns-query
+*.zijieapi.com=server:https://dns.alidns.com/dns-query
