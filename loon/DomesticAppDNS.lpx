@@ -145,6 +145,39 @@ m.baike.com=server:system
 *.zhihu.com=server:system
 *.zhimg.com=server:system
 
+# Bilibili and its domestic CDN/API domains
+*.bilibili.com=server:system
+*.bilivideo.com=server:system
+*.bilivideo.cn=server:system
+*.biliapi.com=server:system
+*.biliapi.net=server:system
+*.hdslb.com=server:system
+*.b23.tv=server:system
+
+# NetEase and 163/126 CDN domains
+*.163.com=server:system
+*.126.net=server:system
+*.netease.com=server:system
+*.netease.com.cn=server:system
+*.netease.im=server:system
+*.nosdn.127.net=server:system
+*.music.126.net=server:system
+
+# DeepSeek
+*.deepseek.com=server:system
+*.deepseek.cn=server:system
+
+# Domestic cloud/CDN domains frequently used by Chinese apps
+*.volces.com=server:system
+*.volcengine.com=server:system
+*.volceapplog.com=server:system
+*.qcloud.com=server:system
+*.qcloudimg.com=server:system
+*.qcloudcos.com=server:system
+
+# Catch Chinese ccTLD domains not listed above.
+*.cn=server:system
+
 # DouYin and ByteDance
 *.amemv.com=server:system
 *.bytednsdoc.com=server:system
